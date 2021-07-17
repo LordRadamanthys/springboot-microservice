@@ -23,6 +23,12 @@ public class Role implements Serializable {
 		this.id = id;
 		this.roleName = roleName;
 	}
+	
+
+	public Role() {
+		super();
+	}
+
 
 	public Long getId() {
 		return id;
